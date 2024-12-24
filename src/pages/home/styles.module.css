@@ -1,0 +1,92 @@
+.container {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    background: linear-gradient(135deg, #eefffd, #efebeb);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: #333;
+    font-family: 'Arial', sans-serif;
+}
+
+.title {
+    text-align: center;
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.input, .select {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+.input:focus, .select:focus {
+    border-color: #1976d2;
+}
+
+.button {
+    padding: 10px;
+    font-size: 1rem;
+    background-color: #1976d2;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #005bb5;
+}
+
+.suggestions {
+    margin-top: 30px;
+}
+
+.subtitle {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.suggestionsList {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.suggestionItem {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.icon {
+    font-size: 36px;
+    color: #1976d2;
+    margin-right: 15px;
+}
+
+.suggestionTitle {
+    font-size: 1.2rem;
+    color: #333;
+    margin: 0;
+}
+
+.suggestionGenre {
+    margin: 0;
+    color: #555;
+}

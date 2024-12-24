@@ -1,0 +1,144 @@
+.nav_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.2);
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    transition: all 0.3s ease;
+    height: 64px;
+}
+
+.category {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #000;
+    cursor: pointer;
+}
+
+.category:hover {
+    color: #000;
+}
+
+.navItem {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    transition: all 0.3s ease;
+    padding-left: 20px;
+}
+
+.search {
+    min-width: 300px;
+    max-width: 500px;
+    width: 100%;
+    border: none;
+}
+
+.right_side {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-right: 20px;
+}
+
+.mobile_nav {
+    margin-top: 80px;
+    padding: 10px;
+}
+
+.category_container {
+    padding: 6px;
+}
+
+.cart_count {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    background: #000000;
+    color: white;
+    border-radius: 4px;
+    padding: 0px;
+    height: 16px;
+    min-width: 16px;
+    font-size: 14px;
+    font-weight: 500;
+    border: none;
+}
+
+.searchRowC {
+    display: flex;
+    gap: 10px;
+    padding: 8px;
+    border-bottom: 1px solid rgb(222, 222, 222);
+    color: black;
+}
+
+.searchRowC:hover {
+    background: rgb(255, 244, 233);
+}
+
+.searchRowImage {
+    height: 70px;
+    width: 70px;
+    border-radius: 12px;
+}
+
+.searchC {
+    max-height: 600px;
+    overflow: auto !important;
+    max-width: 400px;
+    width: 100%;
+    position: absolute;
+    right: -8px;
+    z-index: 100;
+}
+
+.search_container {
+    position: relative;
+}
+
+@media screen and (max-width: 768px) {
+    .searchC {
+        width: 100vw;
+    }
+    .right_side {
+        gap: 0px;
+    }
+}
+
+.menuItem {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.all {
+    padding: 8px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+/* Hover state */
+a:hover {
+    color: #0056b3;          
+    text-decoration: underline;
+}

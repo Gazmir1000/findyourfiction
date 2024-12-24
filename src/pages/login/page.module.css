@@ -1,0 +1,34 @@
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    margin-bottom: 60px;
+}
+
+.loginCard{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    max-width: 600px;
+    width: 100%;
+}
+
+.loginBtn{
+    background-color: black !important;
+    color: white !important;
+    font-weight: 600 !important;
+    max-width: 200px;
+    width: 100%;
+}
+
+.inputLogin{
+    max-width: 400px;
+    width: 100%;
+}
+
+.error{
+    color:red;
+}
